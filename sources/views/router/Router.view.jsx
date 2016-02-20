@@ -5,11 +5,9 @@ const ReactRouter = require('react-router');
 
 const Router = ReactRouter.Router;
 const Route = ReactRouter.Route;
-const IndexRoute = ReactRouter.IndexRoute;
 
 const browserHistory = ReactRouter.browserHistory;
 
-const App = require('./../App.view.jsx');
 const NotFound = require('./../NotFound.view.jsx');
 const About = require('./../About.view.jsx');
 

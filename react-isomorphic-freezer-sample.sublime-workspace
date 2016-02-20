@@ -1,0 +1,990 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pr",
+				"products"
+			],
+			[
+				"teh",
+				"then"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"Prod",
+				"Produkte"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"user",
+				"usersSecretToken"
+			],
+			[
+				"this",
+				"this_div"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"getFir",
+				"getFirstnameIsEmpty"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"getE",
+				"getEmailIsNotValid"
+			],
+			[
+				"em",
+				"emailErrorClass"
+			],
+			[
+				"pos",
+				"post_data"
+			],
+			[
+				"login",
+				"loginType"
+			],
+			[
+				"scol",
+				"socialType"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"itme",
+				"items"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"Ov",
+				"OverWithDrawn"
+			],
+			[
+				"games",
+				"gameStates"
+			],
+			[
+				"gameS",
+				"gameState"
+			],
+			[
+				"gameSta",
+				"gameStates"
+			],
+			[
+				"game",
+				"gameStates"
+			],
+			[
+				"gam",
+				"gameStates"
+			],
+			[
+				"inde",
+				"index"
+			],
+			[
+				"field",
+				"fieldTypes"
+			],
+			[
+				"win",
+				"winningService"
+			],
+			[
+				"fiel",
+				"fields"
+			],
+			[
+				"ind",
+				"indexOfWinnerCombination"
+			],
+			[
+				"bran",
+				"brandName"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ima",
+				"image_link"
+			],
+			[
+				"Task",
+				"TASK_ADDED"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Readme.md",
+			"settings":
+			{
+				"buffer_size": 48,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sources/views/About.view.jsx",
+			"settings":
+			{
+				"buffer_size": 548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sources/views/Items.view.jsx",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sources/views/Time.view.jsx",
+			"settings":
+			{
+				"buffer_size": 528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "const React = require('react');\n\nclass ReactFreezerComponent extends React.Component {\n   static propTypes = {\n    state: React.PropTypes.object.isRequired\n  };\n\n  constructor(props) {\n    super(props);\n  }\n\n  shouldComponentUpdate(props) {\n    return this.props.state.currentTime !== props.state.currentTime;\n  }\n\n  render() {\n    console.log(`Render ${this.dispayName}.`);\n    \n    return this.renderComponent();\n  }\n}\n\nmodule.exports = ReactFreezerComponent;",
+			"file": "sources/views/ReactFreezerComponent.view.jsx",
+			"file_size": 450,
+			"file_write_time": 131004385094653403,
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "ip",
+		"selected_items":
+		[
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"togg",
+				"Toggle Comment"
+			],
+			[
+				"d",
+				"Diffy Compare"
+			],
+			[
+				"diff",
+				"Diffy Compare"
+			],
+			[
+				"lore",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"t",
+				"Toggle Comment"
+			],
+			[
+				"tgg",
+				"Toggle Comment"
+			],
+			[
+				"too",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"line",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"c",
+				"Toggle Comment"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"format",
+				"Format CSS: Expanded (Break Selectors)"
+			],
+			[
+				"form",
+				"Format CSS: Expanded"
+			],
+			[
+				"forma",
+				"Format CSS: Expanded (Break Selectors)"
+			],
+			[
+				"css",
+				"Format CSS: Compact (Break Selectors, No Spaces)"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 571.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '5b468e895e861582c8ac080daaae7722' + 'a0787a887fb19723f006ed5b020ffdf6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Code/react-isomorphic-freezer-sample"
+	],
+	"file_history":
+	[
+		"/C/Code/react-isomorphic-freezer-sample/react-isomorphic-freezer-sample.sublime-project",
+		"/C/Code/react-isomorphic-freezer-sample/sources/views/Time.view.jsx",
+		"/C/Code/react-isomorphic-freezer-sample/package.json",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-social-login/init.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/woocommerce-likeable-product.php",
+		"/C/Homepages/Stilophil/Current/index.php",
+		"/C/Homepages/Stilophil/Current/HowToAutoInsert",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/views/wlp_productview.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/shariff-sharing/shariff-wp.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/add-meta-tags/metadata/amt_opengraph.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/assets/js/main.js",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/wlp_virtualpage.php",
+		"/C/Homepages/Stilophil/Current/wp-content/themes/Divi/header.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-social-login/plugin-fw/yit-plugin.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-social-login/includes/class-yith-social-login-frontend.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/jetpack/modules/markdown/easy-markdown.php",
+		"/C/Homepages/Stilophil/Current/wp-blog-header.php",
+		"/C/Homepages/Stilophil/Current/wp-includes/class-wp.php",
+		"/C/Homepages/Stilophil/Current/wp-includes/canonical.php",
+		"/C/Homepages/Stilophil/Current/wp-includes/formatting.php",
+		"/C/Homepages/Stilophil/Current/wp-admin/options-permalink.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/jetpack/modules/custom-css/custom-css/preprocessors/scss.inc.php",
+		"/C/Homepages/xampp/apache/logs/access.log",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/add-meta-tags/amt-embed.php",
+		"/C/Homepages/Stilophil/Current/wp-content/themes/Divi/404.php",
+		"/C/Homepages/xampp/apache/logs/error.log",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/add-meta-tags/add-meta-tags.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/wordpress-seo/frontend/class-frontend.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/jetpack/modules/minileven/theme/pub/minileven/inc/tweaks.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/assets/css/styles.css",
+		"/C/Homepages/Stilophil/Current/wp-content/themes/Divi-Child/scripts.js",
+		"/C/Homepages/Stilophil/Current/wp-content/themes/Divi-Child/style.css",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/wlp_repository.php",
+		"/C/Homepages/Stilophil/Current/wp-content/themes/Divi-Child/functions.php",
+		"/C/Homepages/Stilophil/Current/.htaccess",
+		"/C/Homepages/Stilophil/Current/wp-config.php",
+		"/C/Homepages/Stilophil/Migrationen/diff/Current_DB_02_02_2016.sql",
+		"/C/Homepages/Stilophil/Migrationen/Current_DB_29_01_2016.sql",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-csvimport/include/class-woocsv-import-settings.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-csvimport/include/class-woocsv-product.php",
+		"/C/Homepages/Stilophil/Migrationen/PROD_2016_01_17_d01e4217.sql",
+		"/C/Code/workshop/c24-cdshop-web/spa/templates/product.html",
+		"/C/Code/workshop/c24-cdshop-web/spa/templates/list.html",
+		"/C/Code/workshop/c24-cdshop-web/spa/templates/search.html",
+		"/C/Code/workshop/c24-cdshop-web/spa/app.js",
+		"/C/Code/workshop/c24-cdshop-web/spa/templates/cart.html",
+		"/C/Code/workshop/c24-cdshop-web/spa/templates/checkout.html",
+		"/C/Code/workshop/c24-cdshop-web/package.json",
+		"/C/Code/workshop/c24-cdshop-web/spa/index.html",
+		"/C/Code/workshop/c24-cdshop-web/spa/styles.css",
+		"/C/Code/workshop/c24-cdshop-web/gulpfile.js",
+		"/C/Code/workshop/c24-cdshop-web/public/app.js",
+		"/C/Code/workshop/c24-cdshop-web/public/index.html",
+		"/C/Code/workshop/c24-cdshop-web/.gitignore",
+		"/C/Code/workshop/c24-cdshop-web/README.md",
+		"/C/Code/workshop/c24-cdshop-web/index.js",
+		"/C/Users/fabia/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/hybridauth/hybridauth/facebook_redirect",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/templates/single-product/related.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/lazyload-woocommerce/lazyload-woocommerce.php",
+		"/C/Homepages/Stilophil/Current/wp-content/themes/Divi/functions.php",
+		"/C/Homepages/Stilophil/Migrationen/d01e4217-migrate-20151013180833.sql.gz",
+		"/C/Homepages/Stilophil/Migrationen/d01e4217 (2).sql",
+		"/C/Homepages/Stilophil/Current/wp-content/languages/plugins/woocommerce-de_DE.po",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/jetpack/class.jetpack-network.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/free-woocommerce-wishlist/free-woocommerce-wishlist.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/wlp_backend.php",
+		"/C/Homepages/Stilophil/Current/wp-content/themes/Divi-Child/product-page.css",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/views/wlp_likebuttonview.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/views/wlp_registerview.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/views/wlp_loginview.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/views/wlp_registernewuserview.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/wlp_errortypes.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/wlp_sociallogin.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/hybridauth/additional-providers/hybridauth-lastfm/thirdparty/LastFM/LastFM.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/hybridauth/hybridauth/config.php",
+		"/C/Homepages/Everto/Current/.htaccess",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-social-login/templates/social-buttons.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-social-login/plugin-options/settings-options.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/user_profile.txt",
+		"/C/Homepages/Stilophil/Current/wp-admin/admin-ajax.php",
+		"/C/Homepages/Everto/database/move_to_everto-beteiligungen.sql",
+		"/C/Homepages/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-social-login/includes/class-yith-social-login.php",
+		"/C/Users/fabia/Downloads/index.html",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php",
+		"/C/Homepages/Stilophil/hybridauth-2.5.1/hybridauth-2.5.1/hybridauth/config.php",
+		"/C/Homepages/Everto/database/pre_url_save.sql",
+		"/C/Users/fabia/Downloads/db389590 (4).sql",
+		"/C/Users/fabia/Downloads/db389590 (3).sql",
+		"/C/Homepages/Everto/Current/wp-content/themes/Divi-child/functions.php",
+		"/C/Users/fabia/Downloads/db389590.sql",
+		"/C/Homepages/Everto/database/pre_changeUrl.sql",
+		"/C/Users/fabia/Downloads/db389590 (1).sql",
+		"/C/Homepages/Everto/Current/robots.txt",
+		"/C/Homepages/Everto/Current/wp-config.php",
+		"/C/Homepages/Everto/database/pre_migration.sql",
+		"/C/Homepages/Everto/Old/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php",
+		"/C/Users/fabia/Downloads/header.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/akismet/views/config.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/jetpack/modules/after-the-deadline.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/akismet/class.akismet-admin.php",
+		"/C/Homepages/Everto/Current/wp-content/themes/Divi-child/scripts.js",
+		"/C/Homepages/Everto/Current/wp-content/themes/Divi-child/style.css",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/templates/single-product.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/templates/content-single-product.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/templates/loop/loop-start.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-taxonomies.php",
+		"/C/Users/fabia/Downloads/fwwl_wishlists.sql",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/woocommerce/cart/cart.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/hallowelt.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-wishlist/includes/class.yith-wcwl-init.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-wishlist/assets/js/unminified/jquery.yith-wcwl.js",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-wishlist/includes/class.yith-wcwl-shortcode.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-wishlist/templates/add-to-wishlist.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-wishlist/languages/yith-woocommerce-wishlist-de_DE.po",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/lib/yit-cpt-unlimited.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/licence/templates/panel/activation/activation-panel.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-likeable-product/includes/some.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/yith-woocommerce-wishlist/plugin-fw/licence/lib/yit-licence.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/woocommerce.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-lightbox/main.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce-lightbox/assets/js/jquery.magnific-popup.min.js",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/shipping/shipping-plugin.php",
+		"/C/Homepages/Stilophil/Current/wp-includes/media.php",
+		"/C/Homepages/Stilophil/Current/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-shipping.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\Homepages\\Stilophil\\Current",
+			"C:\\Homepages\\Stilophil\\Current\\wp-includes",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content\\themes\\Divi",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content\\plugins",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content\\plugins\\woocommerce-csvimport",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content\\",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content\\plugins\\woocommerce-likeable-product",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content\\plugins",
+			"<open files>",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content\\",
+			"C:\\Homepages\\Stilophil\\Current\\wp-content\\plugins\\yith-woocommerce-wishlist",
+			"C:\\Homepages\\Stilophil\\Current",
+			"C:\\Homepages\\Everto\\Current",
+			"C:\\Homepages\\Stilophil\\Current",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"App",
+			"SubComponent",
+			"Time",
+			"WLP_Repository",
+			"IP_Controller",
+			"WLP",
+			"og:updated_time",
+			"og:url",
+			"<title>",
+			"get_instance",
+			"the_posts",
+			"make_filterable",
+			"parse_query",
+			"make_filterable",
+			"the_posts",
+			"header(",
+			"is_404",
+			"404",
+			"404.php",
+			"404",
+			"header",
+			"http://stilophil.de/meine-produkte/~fabianzintgraf/",
+			"~fabianzintgraf",
+			"404",
+			"og:type",
+			"og:image",
+			"renderTitle",
+			"wp_title",
+			"Virt",
+			"isActive",
+			"\"",
+			"=",
+			"preg",
+			"pref",
+			"getUserIdByUserName",
+			"getUserCookieValue",
+			"_ProductView",
+			"_productView",
+			"set_post_thumbnail",
+			"_wp_attachment_metadata",
+			"jDQGL_term_taxonomy",
+			"meta",
+			"update_post_meta",
+			"save_categories",
+			"update_post_meta",
+			"insert",
+			"000156_Rucksack-400x250.png",
+			"2440",
+			"rucksack",
+			"_sku",
+			"2378",
+			"searchService",
+			"createCartId",
+			"$localStorage.",
+			"localStorage",
+			"addToCart",
+			"cartService",
+			"getCd",
+			"searchService",
+			"cds.",
+			"cds",
+			"data",
+			"cartService",
+			"getCart",
+			"100px",
+			"createService",
+			"fa",
+			"h3",
+			"span",
+			"serve",
+			"watch",
+			"html",
+			"HTML",
+			"html",
+			"100",
+			"build",
+			"gulpCopy",
+			"shipyard",
+			"hello-world-service",
+			"SHUTDOWN_TIMEOUT",
+			"tram",
+			"{",
+			".et_overlay",
+			"opac",
+			"-moz-box-shadow",
+			"box-",
+			"related products",
+			"llwoo_placeholder",
+			"lazyload-woo_placeholder",
+			"ul",
+			"ll_woocommerce_template_loop_product_thumbnail",
+			"woocommerce_template_loop_product_thumbnail",
+			"et_shop_image",
+			"woocommerce_template_loop_product_thumbnail",
+			"br_lmp_license_callback",
+			"http://",
+			"testing.stilophil.de",
+			"example",
+			"related products",
+			"ProductBrandTitle",
+			"initializeRouter",
+			"wlp_loadAssets",
+			"is_user_logged_in",
+			"add_to_menubar",
+			"initializeRouter",
+			"is_user_logged_in",
+			".LoginModalDialog-callToActionButton:hover,",
+			"/* Button Hover */",
+			"et_pb_column",
+			".et_pb_column",
+			".et_pb_gutters1",
+			".et_pb_column",
+			"et_pb_gutters1",
+			".et_pb_column",
+			".et_pb_column ",
+			"home",
+			"attachment",
+			"<body",
+			"body",
+			"160px",
+			"h2",
+			"10%",
+			"20%",
+			"20",
+			"20%",
+			"&#x25cf;",
+			"25cf",
+			"/&#x25cf;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"href=\"",
+			"www.everto-beteiligungen.de",
+			"http://www.everto-beteiligungen.de",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sources/views/About.view.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sources/views/Items.view.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sources/views/Time.view.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sources/views/ReactFreezerComponent.view.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "react-isomorphic-freezer-sample.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"formatting",
+				"wp-includes\\formatting.php"
+			],
+			[
+				"perma",
+				"wp-admin\\options-permalink.php"
+			],
+			[
+				"404",
+				"wp-content\\themes\\Divi\\404.php"
+			],
+			[
+				"class-wp.php",
+				"wp-includes\\class-wp.php"
+			],
+			[
+				"canon",
+				"wp-includes\\canonical.php"
+			],
+			[
+				"admin-ajax.php",
+				"wp-admin\\admin-ajax.php"
+			],
+			[
+				"wlp_registerview",
+				"wp-content\\plugins\\woocommerce-likeable-product\\includes\\views\\wlp_registerview.php"
+			],
+			[
+				"wlp_productview",
+				"wp-content\\plugins\\woocommerce-likeable-product\\includes\\views\\wlp_productview.php"
+			],
+			[
+				"wooco",
+				"wp-content\\plugins\\woocommerce\\woocommerce.php"
+			],
+			[
+				"wpmdb",
+				"wp-content\\plugins\\wp-migrate-db\\class\\wpmdb.php"
+			],
+			[
+				"wp-mi",
+				"wp-content\\plugins\\wp-migrate-db\\wp-migrate-db.php"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"wp-conf",
+				"wp-config.test.php"
+			],
+			[
+				"wp-c",
+				"wp-config.php"
+			],
+			[
+				"cate",
+				"wp-includes\\category.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"sty",
+				"wp-content\\themes\\Divi-Child\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 445.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,26 +1,31 @@
 const React = require('react');
+const ReactFreezerComponent = require('./ReactFreezerComponent.view.jsx');
+
 const State = require('./../state')
 
-class Time extends React.Component {
+class Time extends ReactFreezerComponent {
+ 
+  constructor(props, context) {
+    super(props, context);
+    this.displayName = 'Time';
+  }
 
-  static propTypes = {
-    state: React.PropTypes.object.isRequired
-  };
+  shouldComponentUpdate(props, state, context) {
+    return this.context.state.currentTime !== context.state.currentTime;
+  }
 
   componentDidMount() {
     setInterval(this.updateTime, 1000);
-  }
-
-  shouldComponentUpdate(props) {
-    return this.props.state.currentTime.time !== props.state.currentTime.time;
   }
 
   updateTime() {
     State.get().currentTime.set({ time: new Date()}).now();
   }
 
-  render() {
-    return <div>{this.props.state.currentTime.time.toString()} Time</div>;
+  renderComponent() {
+    return (
+      <div>{this.context.state.currentTime.time.toString()} Time</div>
+      );
   }
 }
 

@@ -1,8 +1,23 @@
 const React = require('react');
 const State = require('./../state')
 const Time = require('./Time.view.jsx');
+const Items = require('./Items.view.jsx');
 
 class App extends React.Component {
+
+  constructor(props, context) {
+    super(props, context);
+
+    this.state = {state: State.get()};
+  }
+
+  static childContextTypes = {
+    state: React.PropTypes.object
+  };
+
+  getChildContext() {
+    return { state: State.get() };
+  }
 
   componentDidMount() {
     State.on('update', () => {
@@ -11,21 +26,12 @@ class App extends React.Component {
   }
 
   render() {
-    const state = State.get();
-
     return (
       <div className="index">
-        <Time state={state} />
-        <Time state={state} />
-        <Time state={state} />
-        <Time state={state} />
-        <Time state={state} />
-        <Time state={state} />
+        <Time />
+        <h1>This is the first page!!</h1>
 
-
-        <h1>{state.items.length} This is the first page!!</h1>
-
-        <button onClick={ () => state.items.push('123')}>Add new items</button>
+        <Items />
       </div>
     );
   }
